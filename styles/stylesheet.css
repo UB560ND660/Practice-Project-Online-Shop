@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .panda-btn {
@@ -147,6 +148,21 @@ nav {
 
 
 /* shoes and bag section  */
+.shoes-backpack-section-title-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes-backpack-section-title-parent p {
+    font-size: 20px;
+    color: #ff9d00;
+}
+
+.shoes-backpack-section-title-parent h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
 .shoes-backpack-parent {
     background: rgb(244, 244, 244);
 }
@@ -154,6 +170,7 @@ nav {
 .shoes-section {
     padding: 50px 0;
 }
+
 
 .shoe-card {
     background-color: #ffff;
@@ -182,4 +199,37 @@ nav {
 
 .shoe-card .panda-btn {
     background: black;
+}
+
+/* backpack section  */
+
+.backpack img {
+    height: 290px;
+}
+
+/* contract section */
+
+.contract-us-parent {
+    background: rgb(255, 242, 241);
+    text-align: center;
+    padding: 35px 15px;
+    border-radius: 15px;
+    margin: 40px auto;
+}
+
+.contract-inp-btn-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.contract-us-parent input {
+    border: none;
+    padding: 15px 152px;
+    border-radius: 10px 0px 0px 10px;
+    text-align: left;
+}
+
+
+.contract-inp-btn-parent .panda-btn {
+    border-radius: 0px 10px 10px 0;
 }
