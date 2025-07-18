@@ -261,3 +261,67 @@ nav {
 .contract-inp-btn-parent .panda-btn {
     border-radius: 0px 10px 10px 0;
 }
+
+@media screen and (max-width:576px) {
+
+    .container,
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .nav-items {
+        padding: 0;
+    }
+
+    .nav-items li {
+        font-size: 1.4rem;
+    }
+
+    .search-parent input {
+        width: 100%;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .categories-card-container {
+        flex-direction: column;
+    }
+
+    .contract-us-parent input {
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .nav-items {
+        padding: 0;
+    }
+
+    .nav-items li {
+        font-size: 1.4rem;
+    }
+
+    .search-parent input {
+        /* width: 100%; */
+        padding: 10px 20px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .categories-card-container {
+        flex-direction: column;
+    }
+
+    .contract-us-parent input {
+        padding: 10px 30px;
+    }
+}
